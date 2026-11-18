@@ -1,14 +1,12 @@
 [
-  {
-    "record_id": "case-44",
-    "source": "chat",
-    "revision": 1,
-    "text": "这笔扣款出现了两次，请帮我处理并关闭旧账户。"
-  },
-  {
-    "record_id": "case-44-followup",
-    "source": "chat",
-    "revision": 1,
-    "text": "补充订单号 8814；新账户还没完成身份验证。"
-  }
+  [
+    "case-44-3",
+    "chat",
+    "旧帐号 -12 已完成验证。刚刚那笔不用退，查一下另一笔。"
+  ],
+  [
+    "case-44-4",
+    "agent-note",
+    "账务说已签收 B-17 调查，还没执行退款。"
+  ]
 ]

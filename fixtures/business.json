@@ -1,0 +1,44 @@
+{
+  "product": "远帆",
+  "routes": {
+    "远帆": {
+      "billing": "团队海风",
+      "account": "团队信标"
+    },
+    "云杉": {
+      "billing": "团队松木",
+      "account": "团队林溪"
+    }
+  },
+  "orders": [
+    {
+      "number": "8814",
+      "product": "远帆"
+    },
+    {
+      "number": "8815",
+      "product": "远帆"
+    },
+    {
+      "number": "6920",
+      "product": "云杉"
+    }
+  ],
+  "account_checks": [
+    {
+      "account": "旧帐号-12",
+      "verified": true
+    },
+    {
+      "account": "新帐号-19",
+      "verified": false
+    }
+  ],
+  "receipts": [
+    {
+      "ref": "B-17",
+      "status": "accepted",
+      "order": "8814"
+    }
+  ]
+}
