@@ -1,0 +1,25 @@
+{
+  "messages": [
+    {
+      "id": "U-1",
+      "speaker": "客户",
+      "text": "把8814那笔退了，新账号先停用。"
+    }
+  ],
+  "requests": [
+    {
+      "id": "R-7",
+      "message": "U-1",
+      "kind": "billing",
+      "target": "8814",
+      "product": "远帆"
+    },
+    {
+      "id": "R-8",
+      "message": "U-1",
+      "kind": "account",
+      "target": "新帐号-19",
+      "product": "远帆"
+    }
+  ]
+}
