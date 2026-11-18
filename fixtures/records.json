@@ -1,0 +1,14 @@
+[
+  {
+    "record_id": "case-44",
+    "source": "chat",
+    "revision": 1,
+    "text": "这笔扣款出现了两次，请帮我处理并关闭旧账户。"
+  },
+  {
+    "record_id": "case-44-followup",
+    "source": "chat",
+    "revision": 1,
+    "text": "补充订单号 8814；新账户还没完成身份验证。"
+  }
+]
