@@ -1,0 +1,56 @@
+{
+  "messages": [
+    {
+      "id": "U-1",
+      "speaker": "客户",
+      "text": "把8814那笔退了，新账号先停用。"
+    },
+    {
+      "id": "A-1",
+      "speaker": "坐席",
+      "text": "好的，8814的退款和新账号停用都登记了。"
+    },
+    {
+      "id": "U-2",
+      "speaker": "客户",
+      "text": "刚刚那笔不用退，查下另一笔。旧账号还是停掉。"
+    },
+    {
+      "id": "U-3",
+      "speaker": "客户",
+      "text": "短信写着“退款已到账”，可我卡里没见到。"
+    }
+  ],
+  "events": [
+    {
+      "type": "confirm",
+      "ticket": "T-3",
+      "target": "8815",
+      "by": "主管"
+    },
+    {
+      "type": "receipt",
+      "ref": "B-23",
+      "status": "accepted",
+      "order": "8815"
+    },
+    {
+      "type": "receipt",
+      "ref": "B-21",
+      "status": "executed",
+      "order": "8814"
+    },
+    {
+      "type": "correct",
+      "ticket": "T-3",
+      "target": "6920",
+      "by": "主管"
+    },
+    {
+      "type": "receipt",
+      "ref": "C-5",
+      "status": "accepted",
+      "account": "旧帐号-12"
+    }
+  ]
+}

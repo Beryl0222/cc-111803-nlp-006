@@ -24,6 +24,16 @@
       "product": "云杉"
     }
   ],
+  "accounts": [
+    {
+      "id": "旧帐号-12",
+      "product": "远帆"
+    },
+    {
+      "id": "新帐号-19",
+      "product": "远帆"
+    }
+  ],
   "account_checks": [
     {
       "account": "旧帐号-12",
